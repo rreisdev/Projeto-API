@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Cliente } from '../models/Cliente.model';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ClienteService } from '../cliente.service';
